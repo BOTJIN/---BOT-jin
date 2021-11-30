@@ -10,11 +10,11 @@ const { base64encode, base64decode } = require('nodejs-base64');
 //========= Check node.js version =========//
 /////////////////////////////////////////////
 
-// const nodeVersion = semver.parse(process.version);
-// if (nodeVersion.major < 13) {
-//     logger(`Your Node.js ${process.version} is not supported, it required Node.js 13 to run bot!`, "error");
-//     return process.exit(0);
-// };
+ const nodeVersion = semver.parse(process.version);
+ if (nodeVersion.major < 13) {
+    logger(`Your Node.js ${process.version} is not supported, it required Node.js 13 to run bot!`, "error");
+    return process.exit(0);
+ };
 
 ///////////////////////////////////////////////////////////
 //========= Create website for dashboard/uptime =========//
@@ -22,7 +22,7 @@ const { base64encode, base64decode } = require('nodejs-base64');
 
 const dashboard = http.createServer(function (_req, res) {
     res.writeHead(200, "OK", { "Content-Type": "text/plain" });
-    res.write("Xin chào cậu chủ Nguyễn Hải Đăng");
+    res.write("Xin chào cậu chủ Jin");
     res.end();
 });
 
