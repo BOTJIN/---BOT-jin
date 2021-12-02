@@ -1,7 +1,7 @@
 {
 	"name" : " miraiBot " ,
 	"phiên bản" : " 1.2.15 " ,
-	"description" : " Một Bot Facebook Messenger đơn giản do tôi (CatalizCS) và anh trai SpermLord của tôi tạo ra. " ,
+	"description" : " Một Bot Facebook Messenger đơn giản do tôi (Jin) và anh trai Zero của tôi tạo ra. " ,
 	"main" : " mirai.js " ,
 	"script" : {
 		"start" : " chỉ mục nút " ,
