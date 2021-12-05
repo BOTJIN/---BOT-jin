@@ -9,7 +9,7 @@ const  { readdirSync , readFileSync , writeFileSync , existsSync , unlinkSync , 
 const  { tham gia , giải quyết }  =  request ( "đường dẫn" ) ;
 const  { execSync }  =  yêu cầu ( 'child_process' ) ;
 const  logger  =  yêu cầu ( "./utils/log.js" ) ;
-const  đăng nhập  =  yêu cầu ( "@ maihuybao / FCA-không chính thức" ) ;
+const  đăng nhập  =  yêu cầu ( "@ JincuteUwU / FCA-không chính thức" ) ;
 const  Axios  =  yêu cầu ( "Axios" ) ;
 const  listPackage  =  JSON . phân tích cú pháp ( readFileSync ( './package.json' ) ) . sự phụ thuộc ;
 const  listbuiltinModules  =  yêu cầu ( "module" ) . nội trang ;
