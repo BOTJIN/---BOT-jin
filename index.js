@@ -103,4 +103,4 @@ if (semver['lt'](local[_0x4d57a7(0xe2)], res['data'][_0x4d57a7(0xe2)])) {
 } else logger(_0x4d57a7(0xcd) + _0x4d57a7(0xd2) + _0x4d57a7(0xe6) + _0x4d57a7(0xd5), _0x4d57a7(0xd9) + _0x4d57a7(0xea)), startBot();
 }).catch(err => logger("Unable to check update.", "CHECK UPDATE"));
 
-//THIZ BOT WAS MADE BY ME(BỌTIN) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
+//THIZ BOT WAS MADE BY ME(BOTJIN) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
